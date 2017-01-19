@@ -13,7 +13,7 @@ class ReviewItem(scrapy.Item):
     
 
 class ReviewsSpider(scrapy.Spider):
-    name = "ReviewsSpider"
+    name = "animeNewsNetworkSpider"
     
     def start_requests(self):
         urls = [u"https://www.animenewsnetwork.com/review/archive"]
